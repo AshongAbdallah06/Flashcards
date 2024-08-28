@@ -1,5 +1,5 @@
 import React from "react";
-import Header_Logged_In from "../components/Header_Logged_In";
+import Header_Logged_In from "../components/HeaderLoggedIn";
 import hint from "../icons/help-circle-outline.svg";
 
 const Study = () => {

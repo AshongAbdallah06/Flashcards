@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import profileIcon from "../icons/person-circle-outline.svg";
 
-const Header_Login_Signup = () => {
+const HeaderLoginSignup = () => {
 	return (
 		<header>
 			<h1 className="logo">Brain Deck</h1>
@@ -21,4 +21,4 @@ const Header_Login_Signup = () => {
 	);
 };
 
-export default Header_Login_Signup;
+export default HeaderLoginSignup;
