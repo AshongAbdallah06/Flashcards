@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-const Header_Login_Signup = () => {
+const HeaderLoginSignup = () => {
 	const [link, setLink] = useState("");
 
 	useEffect(() => {
@@ -25,4 +25,4 @@ const Header_Login_Signup = () => {
 	);
 };
 
-export default Header_Login_Signup;
+export default HeaderLoginSignup;

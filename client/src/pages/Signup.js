@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Header_Login_Signup from "../components/Header_Login_Signup";
+import HeaderLoginSignup from "../components/HeaderLoginSignup";
 
 const Signup = () => {
 	return (
 		<div>
-			<Header_Login_Signup />
+			<HeaderLoginSignup />
 
 			<div className="form-container">
 				{/* <h2>Signup</h2> */}
