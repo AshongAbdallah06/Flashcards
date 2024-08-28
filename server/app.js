@@ -25,3 +25,5 @@ connect(MONGODB_URI).then(() => {
 });
 app.use("/users", userRoutes);
 app.use("/cards", cardRoutes);
+
+// example
