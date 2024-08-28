@@ -1,11 +1,11 @@
 import React from "react";
-import Header_Logged_In from "../components/HeaderLoggedIn";
+import HeaderLoggedIn from "../components/HeaderLoggedIn";
 import hint from "../icons/help-circle-outline.svg";
 
 const Study = () => {
 	return (
 		<>
-			<Header_Logged_In />
+			<HeaderLoggedIn />
 
 			<div className="study-mode-container">
 				<div className="study-mode">
