@@ -1,0 +1,28 @@
+.side-bar {
+  width: 28%;
+  height: 100vh;
+  padding-left: 1.8rem;
+}
+.side-bar-links {
+  margin-top: 7.5rem;
+}
+.sb {
+  display: flex;
+  align-items: center;
+  width: 22rem;
+  height: 5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.68rem;
+  font-weight: 500;
+  padding-left: 1.7rem;
+  color: #414141;
+}
+.sb p {
+  margin-left: 2.8rem;
+}
+
+.active {
+  background-color: #e5e6ff;
+  color: black;
+  border-radius: 0.75rem;
+}
