@@ -11,7 +11,7 @@ const Sidebar = () => {
           className="sb sb-home-link"
           activeClassName="active"
         >
-          <img src="../icons/home-outline.svg" />
+          <img src="/icons/home-outline.svg" />
           <p>Home</p>
         </NavLink>
         <NavLink
@@ -19,7 +19,7 @@ const Sidebar = () => {
           className="sb sb-cards-link"
           activeClassName="active"
         >
-          <img src="../icons/home-outline.svg" />
+          <img src="/icons/albums-outline.svg" />
           <p>Flashcards</p>
         </NavLink>
         <NavLink
@@ -27,7 +27,7 @@ const Sidebar = () => {
           className="sb sb-study-link"
           activeClassName="active"
         >
-          <img src="../icons/home-outline.svg" />
+          <img src="/icons/school-outline.svg" />
           <p>Study</p>
         </NavLink>
       </div>

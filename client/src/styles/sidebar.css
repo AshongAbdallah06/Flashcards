@@ -3,6 +3,15 @@
   height: 100vh;
   padding: 2rem;
 }
+.side-bar img {
+  width: 2rem;
+  height: 1.7rem;
+}
+
+.side-bar .sb.active img {
+  filter: brightness(0) saturate(100%);
+}
+
 /* .side-bar-links {
   margin-top: 7.5rem;
 } */

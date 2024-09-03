@@ -41,6 +41,12 @@
   font-family: "Roboto", sans-serif;
 }
 
+.create-new-image {
+  filter: invert(1) brightness(2);
+  width: 1rem;
+  height: 1rem;
+}
+
 .add-more {
   width: 100%;
   display: flex;

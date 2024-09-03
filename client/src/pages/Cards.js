@@ -26,7 +26,7 @@ const Cards = () => {
           <div className="cards-header">
             <h1>Your cards</h1>
             <button onClick={handleCreateNewClick}>
-              <img src="../icons/add-outline" />
+              <img className="create-new-image" src="/icons/add-outline.svg" />
               Create new
             </button>
           </div>

@@ -18,7 +18,7 @@ const Home = () => {
           <div className="recents-div">
             <div>
               <div className="recents-header">
-                <img src="../icons/compass-outline.svg" />
+                <img src="/icons/compass-outline.svg" />
                 <p className="recents-text">Recent</p>
               </div>
 
@@ -29,7 +29,7 @@ const Home = () => {
           <div className="stats-div">
             <div>
               <div className="stats-header">
-                <img src="../icons/compass-outline.svg" />
+                <img src="/icons/stats-chart-outline.svg" />
                 <p className="stats-text">Stats</p>
               </div>
               <Stats />
