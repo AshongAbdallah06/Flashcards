@@ -1,6 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/sidebar.css";
+import home from "../icons/home-outline.svg";
+import albums from "../icons/albums-outline.svg";
+import school from "../icons/school-outline.svg";
 
 const Sidebar = () => {
   return (
@@ -11,7 +14,7 @@ const Sidebar = () => {
           className="sb sb-home-link"
           activeClassName="active"
         >
-          <img src="/icons/home-outline.svg" />
+          <img src={home} />
           <p>Home</p>
         </NavLink>
         <NavLink
@@ -19,7 +22,7 @@ const Sidebar = () => {
           className="sb sb-cards-link"
           activeClassName="active"
         >
-          <img src="/icons/albums-outline.svg" />
+          <img src={albums} />
           <p>Flashcards</p>
         </NavLink>
         <NavLink
@@ -27,7 +30,7 @@ const Sidebar = () => {
           className="sb sb-study-link"
           activeClassName="active"
         >
-          <img src="/icons/school-outline.svg" />
+          <img src={school} />
           <p>Study</p>
         </NavLink>
       </div>

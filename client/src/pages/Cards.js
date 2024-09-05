@@ -4,6 +4,7 @@ import HeaderLoggedIn from "../components/HeaderLoggedIn";
 import Sidebar from "../components/Sidebar";
 import Collection from "../components/Collection";
 import CreateCollectionOverlay from "../components/CreateCollectionOverlay";
+import add from "../icons/add-outline.svg";
 
 const Cards = () => {
   const [showOverlay, setShowOverlay] = useState(false);
@@ -26,7 +27,7 @@ const Cards = () => {
           <div className="cards-header">
             <h1>Your cards</h1>
             <button onClick={handleCreateNewClick}>
-              <img className="create-new-image" src="/icons/add-outline.svg" />
+              <img className="create-new-image" src={add} />
               Create new
             </button>
           </div>

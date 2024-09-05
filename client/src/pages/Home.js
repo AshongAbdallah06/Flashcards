@@ -6,6 +6,8 @@ import HeaderLoggedIn from "../components/HeaderLoggedIn";
 import Sidebar from "../components/Sidebar";
 import Stats from "../components/Stats";
 import Collection from "../components/Collection";
+import compass from "../icons/compass-outline.svg";
+import statschart from "../icons/stats-chart-outline.svg";
 
 const Home = () => {
   return (
@@ -18,7 +20,7 @@ const Home = () => {
           <div className="recents-div">
             <div>
               <div className="recents-header">
-                <img src="/icons/compass-outline.svg" />
+                <img src={compass} />
                 <p className="recents-text">Recent</p>
               </div>
 
@@ -29,7 +31,7 @@ const Home = () => {
           <div className="stats-div">
             <div>
               <div className="stats-header">
-                <img src="/icons/stats-chart-outline.svg" />
+                <img src={statschart} />
                 <p className="stats-text">Stats</p>
               </div>
               <Stats />
