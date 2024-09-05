@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "../components/styles/sidebar.css"
-import home from "../icons/home-outline.svg"
-import album from "../icons/albums-outline.svg"
-import study from "../icons/school-outline.svg"
+import "../styles/sidebar.css";
+import home from "../icons/home-outline.svg";
+import albums from "../icons/albums-outline.svg";
+import school from "../icons/school-outline.svg";
 
 const Sidebar = () => {
   return (
@@ -12,24 +12,28 @@ const Sidebar = () => {
         <NavLink
           to="/home"
           className="sb sb-home-link"
-
+          activeClassName="active"
         >
-          <img src={home} alt="home" />
-          <span>Home</span>
+          <img src={home} />
+          <p>Home</p>
         </NavLink>
         <NavLink
           to="/cards"
-          className="sb sb-cards-link active"
+          className="sb sb-cards-link"
+          activeClassName="active"
         >
-          <img src={album} alt="album"/>
-          <span>Flashcards</span>
+          <img src={albums} />
+          <p>Flashcards</p>
+
         </NavLink>
         <NavLink
           to="/study"
           className="sb sb-study-link"
+          activeClassName="active"
         >
-          <img src={study} alt="study" />
-          <span>Study</span>
+          <img src={school} />
+          <p>Study</p>
+
         </NavLink>
       </div>
     </div>

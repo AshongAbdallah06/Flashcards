@@ -1,0 +1,35 @@
+.side-bar {
+  width: 28%;
+  height: 100vh;
+  padding: 2rem;
+}
+.side-bar img {
+  width: 2rem;
+  height: 1.7rem;
+}
+
+.side-bar .sb.active img {
+  filter: brightness(0) saturate(100%);
+}
+
+/* .side-bar-links {
+  margin-top: 7.5rem;
+} */
+.sb {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding-left: 1.7rem;
+  color: #414141;
+}
+.sb p {
+  margin-left: 2rem;
+}
+
+.active {
+  background-color: #e5e6ff;
+  color: black;
+  border-radius: 0.75rem;
+}

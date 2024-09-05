@@ -1,0 +1,71 @@
+.main-container {
+  width: 100%;
+  /* padding-left: 2.5%;
+    padding-right: 2.5%; */
+  /* margin-top: 35px; */
+  display: flex;
+}
+
+.home-main {
+  width: 72%;
+  padding-left: 1.8rem;
+  padding-top: 1.5rem;
+  height: 100vh;
+  background-color: #dbdfff;
+}
+.home-main h1 {
+  font-size: 3rem;
+  font-family: "Reem Kufi Ink", sans-serif;
+  font-weight: 800;
+}
+
+.recents-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.recents-header {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+.recents-header img {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.stats-header img {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.recents-header p {
+  margin-left: 1rem;
+}
+.stats-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6.25rem;
+}
+
+.recents-text {
+  font-size: 2.25rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.stats-text {
+  font-size: 2.25rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.stats-header {
+  display: flex;
+  align-items: center;
+}
+
+.stats-header p {
+  margin-left: 1rem;
+}
