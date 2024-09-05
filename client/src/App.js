@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Study from "./pages/Study";
+import LandingPage from "./pages/LandingPage";
+import SingleCard from "./pages/SingleCard";
 
 function App() {
 	return (
@@ -22,6 +24,14 @@ function App() {
 				<Route
 					path="/study/1"
 					element={<Study />}
+				/>
+				<Route
+					path="/landing"
+					element={<LandingPage />}
+				/>
+				<Route
+					path="/singleCard"
+					element={<SingleCard />}
 				/>
 			</Routes>
 		</Router>

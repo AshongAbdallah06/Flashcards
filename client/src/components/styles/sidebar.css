@@ -1,0 +1,40 @@
+.side-bar {
+    height: calc(100vh - 50px);
+    margin-right: 20px;
+    min-width: 15rem
+    /* padding: 2rem; */
+  }
+  
+  /* .side-bar-links {
+    margin-top: 7.5rem;
+  } */
+  .sb {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding-left: 1.7rem;
+    color: #414141;
+  }
+  .cards-header{
+    align-items: center;
+  }
+  .cards-header button {
+    font-size: 1rem;    
+   display: flex;
+   justify-content: center;
+   align-items: center
+}
+.sb span{
+  padding-left: 20px;
+}
+  
+  .active {
+    background-color: #e5e6ff;
+    color: black;
+    border-radius: 0.75rem;
+  }
+  img{
+    height: 35px;
+  }
