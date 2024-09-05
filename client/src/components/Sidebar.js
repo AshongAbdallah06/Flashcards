@@ -24,6 +24,7 @@ const Sidebar = () => {
         >
           <img src={albums} />
           <p>Flashcards</p>
+
         </NavLink>
         <NavLink
           to="/study"
@@ -32,6 +33,7 @@ const Sidebar = () => {
         >
           <img src={school} />
           <p>Study</p>
+
         </NavLink>
       </div>
     </div>
