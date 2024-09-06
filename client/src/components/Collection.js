@@ -1,20 +1,15 @@
 import React from "react";
-import "../styles/collection.css";
 
 const Collection = () => {
-  return (
-    <div className="recent-lessons">
-      <div className="lesson french" id="">
-        French
-      </div>
-      <div className="lesson dsa" id="">
-        DSA
-      </div>
-      <div className="lesson english" id="">
-        English
-      </div>
-    </div>
-  );
+	return (
+		<section className="recent-lessons">
+			<div className="lesson french">French</div>
+			<div className="lesson dsa">DSA</div>
+			<div className="lesson english">English</div>
+			<div className="lesson english">Maths</div>
+			<div className="lesson english">Geography</div>
+		</section>
+	);
 };
 
 export default Collection;

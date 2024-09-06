@@ -31,6 +31,7 @@ img,
 li {
 	cursor: pointer;
 	text-decoration: none;
+	color: black;
 }
 
 header ul,
@@ -41,11 +42,13 @@ form {
 	align-items: center;
 }
 
-header, footer {
+header,
+footer {
 	display: flex;
 	border-bottom: 1px solid #e1e1e1;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0.5rem;
 	padding-left: 3rem;
 }
 
@@ -53,7 +56,8 @@ header, footer {
 	font-family: var(--ribeye);
 }
 
-header ul, footer ul {
+header ul,
+footer ul {
 	list-style: none;
 	height: 100%;
 	font-family: var(--reem-kufi);
@@ -61,17 +65,18 @@ header ul, footer ul {
 header ul li:first-child {
 	color: #a6a6a6;
 }
-header .navUl{
+header .navUl {
 	color: #a6a6a6;
 }
-header .navUl li{
+header .navUl li {
 	margin-left: 1rem;
 }
 header ul li:first-child:hover,
 header .navUl li:hover {
 	color: #000000;
 }
-header ul li:last-child, footer ul li:last-child {
+header ul li:last-child,
+footer ul li:last-child {
 	background-color: #abf6d2;
 	width: 100%;
 	padding: 1rem;
@@ -260,43 +265,43 @@ input[type="range"] {
 }
 
 /* LandingPage CSS */
-.landingpic{
+.landingpic {
 	height: 100%;
 	width: 100%;
 }
 .ghpic,
-.britpic{
+.britpic {
 	height: 100%;
 	width: 100%;
 }
 
 #hero,
 #questionare,
-#manage{
+#manage {
 	padding: 40px 100px 40px 100px;
 	height: 411px;
 }
-.hero-container{
+.hero-container {
 	height: 100%;
 	display: flex;
 }
-.hero-container div:first-child{
+.hero-container div:first-child {
 	flex: 1;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
-.hero-container h1{
+.hero-container h1 {
 	font-family: sans-serif;
 	font-size: 50px;
 }
-.hero-container p{
+.hero-container p {
 	font-weight: 100;
 	font-size: 20px;
 	width: 57%;
 }
 .hero-container div:first-child a,
-.questionare-left a{
+.questionare-left a {
 	border: 1px solid transparent;
 	background-color: hsl(120, 46%, 68%);
 	color: #000;
@@ -307,102 +312,102 @@ input[type="range"] {
 	padding: 10px;
 	border-radius: 5px;
 }
-.hero-container div:first-child a img{
+.hero-container div:first-child a img {
 	height: 20px;
 }
-.hero-container div:last-child{
+.hero-container div:last-child {
 	flex: 1;
 	background-color: red;
 }
 
 /* questionare CSS section*/
-#questionare{
+#questionare {
 	height: fit-content;
 }
-.questionare-container{
+.questionare-container {
 	display: flex;
 	height: 517px;
 	background-color: hsl(0, 0%, 97%);
 }
-.questionare-left{
+.questionare-left {
 	flex: 1;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	padding: 20px;
 }
-.questionare-left img{
+.questionare-left img {
 	height: 40px;
 }
-.questionare-left h1{
+.questionare-left h1 {
 	font-family: sans-serif;
 	width: 70%;
 	padding-top: 20%;
 	font-size: 30px;
 	line-height: 50px;
 }
-.questionare-left h1 span{
+.questionare-left h1 span {
 	color: orange;
 }
-.questionare-left p{
+.questionare-left p {
 	width: 60%;
 	padding-top: 20px;
 	font-family: sans-serif;
 	line-height: 20px;
 }
-.questionare-left a{
+.questionare-left a {
 	background-color: orange;
 	color: #fff;
 	padding: 10px 40px;
 }
-.questionare-right{
+.questionare-right {
 	flex: 1;
 	padding: 20px;
 }
-.questionare-right img{
+.questionare-right img {
 	height: 100%;
 	width: 100%;
 }
 
 /* Manage-section css   */
-#manage{
+#manage {
 	height: 500px;
 }
-#manage img{
+#manage img {
 	height: 15px;
 }
-#manage .brief{
+#manage .brief {
 	height: 30px;
 }
 #manage .ghpic,
-#manage .britpic{
+#manage .britpic {
 	height: 100px;
 	width: 100px;
 }
-.manage-container{
+.manage-container {
 	display: flex;
 	height: 100%;
 }
-.manage-left{
+.manage-left {
 	display: flex;
 	flex-direction: column;
 	align-items: start;
 	justify-content: space-around;
 }
-.manage-left h1{
+.manage-left h1 {
 	font-size: 40px;
 	font-family: sans-serif;
 	width: 70%;
 	line-height: 50px;
 }
-.manage-left h1 span{
+.manage-left h1 span {
 	color: rgb(9, 9, 112);
 }
-.manage-left p{
+.manage-left p {
 	font-family: sans-serif;
 	width: 60%;
 }
-.manage-left a{
+.manage-left a {
 	background-color: rgb(9, 9, 112);
 	color: #fff;
 	padding: 10px 40px;
@@ -410,10 +415,10 @@ input[type="range"] {
 	display: flex;
 	align-items: center;
 }
-.manage-right{
+.manage-right {
 	flex: 1;
 }
-.manage-right .history{
+.manage-right .history {
 	width: 80%;
 	min-width: 300px;
 	background-color: #fff;
@@ -423,34 +428,34 @@ input[type="range"] {
 	box-shadow: 0 5px 3px rgba(0, 0, 0, 0.1);
 	position: relative;
 }
-.manage-right .history h1{
+.manage-right .history h1 {
 	text-align: center;
 	font-family: var(--roboto);
 	margin-top: 10px;
 }
-.manage-right .history div{
+.manage-right .history div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
-.manage-right .history div p{
+.manage-right .history div p {
 	width: 100%;
 	text-align: center;
 	font-family: var(--roboto);
 	font-size: 15px;
 	padding: 0 15px;
 }
-.manage-right .history .gh{
+.manage-right .history .gh {
 	position: absolute;
 	top: 50px;
 	left: -50px;
 	width: 70%;
 	border-radius: 10px;
 	height: 80%;
-	background-color: #ABF6D2;
+	background-color: #abf6d2;
 }
-.manage-right .history .brit{
+.manage-right .history .brit {
 	position: absolute;
 	top: 70px;
 	left: 40%;
@@ -461,7 +466,7 @@ input[type="range"] {
 	background-color: rgb(9, 9, 112);
 }
 
-.tryNow{
+.tryNow {
 	margin: 40px auto;
 	background-color: rgb(9, 9, 112);
 	color: #fff;
@@ -472,11 +477,11 @@ input[type="range"] {
 	padding: 15px 40px;
 	border-radius: 5px;
 }
-.tryNow img{
+.tryNow img {
 	height: 20px;
 }
 
-footer{
+footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -484,16 +489,221 @@ footer{
 	background-color: rgb(8, 8, 49);
 	color: #fff;
 }
-footer .logo{
+footer .logo {
 	font-family: var(--reem-kufi);
 }
-footer ul{
+footer ul {
 	display: flex;
 	align-items: center;
 }
-footer ul li{
-	padding-left: 10px; 
+footer ul li {
+	padding-left: 10px;
 }
-footer ul li a{
+footer ul li a {
 	color: #fff;
+}
+
+/* Sidebar */
+.side-bar {
+	width: 30%;
+	min-width: 12rem;
+	max-width: 13rem;
+	height: 100vh;
+	padding: 1rem;
+	border-right: 1px solid #e1e1e1;
+}
+.sb-link img {
+	width: 2rem;
+	height: 1.5rem;
+}
+
+.sb-link {
+	display: flex;
+	align-items: center;
+	padding: 0.8rem 2rem;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	padding-left: 0.7rem;
+	color: #414141;
+	border-radius: 6px;
+	transition: all 0.15s;
+}
+.sb-link:hover {
+	background-color: #e1e1e1;
+}
+.sb-link p {
+	width: 7rem;
+	padding-left: 1rem;
+}
+
+/* Home */
+.main-container {
+	width: 100%;
+	display: flex;
+}
+
+.home-main,
+.cards-main {
+	width: 100%;
+	padding: 2rem;
+	height: 100vh;
+	background-color: #f2f3ff;
+}
+.home-main h1,
+.cards-main h1 {
+	font-size: 2rem;
+	font-family: "Reem Kufi Ink", sans-serif;
+	font-weight: 600;
+}
+
+.recents-div {
+	margin-top: 2rem;
+	width: 100%;
+}
+
+.recents-header,
+.stats-header {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+.recents-header img,
+.stats-header img {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.recents-header p,
+.stats-header p {
+	font-size: 1.3rem;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+}
+
+.recents-header p,
+.stats-header p {
+	margin-left: 1rem;
+}
+.stats-div {
+	width: 100%;
+	margin-top: 3rem;
+}
+
+/* Cards */
+
+.collections-div {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.cards-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+.cards-header button {
+	padding: 0.5rem 1rem;
+	background-color: #1f56c1;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Roboto", sans-serif;
+}
+
+.create-new-image {
+	width: 1rem;
+	height: 1rem;
+}
+
+.add-more {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+	font-family: "Roboto", sans-serif;
+	margin-top: 2rem;
+}
+
+/* Collection */
+.recent-lessons {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(5, 1fr);
+	justify-content: space-between;
+	margin-top: 0.5rem;
+}
+
+.lesson {
+	border-radius: 0.4rem;
+	display: flex;
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	justify-content: flex-end;
+	padding: 0.5rem;
+	padding-top: 3rem;
+	cursor: pointer;
+	min-width: 9rem;
+}
+
+.french {
+	background-color: #1e3a8a;
+	color: white;
+}
+.dsa {
+	background-color: #009688;
+	color: white;
+}
+.english {
+	background-color: #8d6e63;
+	color: white;
+}
+
+/* Stats */
+.recent-stats {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1rem;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 0.5rem;
+}
+
+.stats-card {
+	min-width: 12rem;
+	height: 10rem;
+	border-radius: 0.4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	cursor: pointer;
+}
+
+.stats-card p {
+	font-size: 1rem;
+}
+.stats-card h3 {
+	font-size: 2.7rem;
+}
+
+.studied {
+	background-color: #5871ff;
+	color: white;
+}
+.time {
+	background-color: #9052ff;
+	color: white;
+}
+.accuracy {
+	background-color: #ef5350;
+	color: white;
 }
